@@ -259,7 +259,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::MilitarySupportDispatch.Properties.Resources.LogoBigger;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(293, 42);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(180, 180);
