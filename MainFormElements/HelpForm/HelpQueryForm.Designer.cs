@@ -624,11 +624,18 @@
             this.ComboBoxCategory.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.ComboBoxCategory.FormattingEnabled = true;
             this.ComboBoxCategory.Items.AddRange(new object[] {
-            "Медична допомога",
-            "Бойова техніка та зброя",
-            "Транспортна підтримка",
-            "Логістика та постачання",
-            "Комунікації та зв\'язок"});
+            "Бойова зброя та боєприпаси",
+            "Екіпірування та захист",
+            "Медичне забезпечення",
+            "Харчування та водопостачання",
+            "Засоби зв\'язку",
+            "Техніка та обладнання",
+            "Спеціальні засоби",
+            "Ремонт та обслуговування",
+            "Польові житло та обладнання",
+            "Розвідувальні засоби",
+            "Енергозабезпечення",
+            "Психологічна підтримка"});
             this.ComboBoxCategory.Location = new System.Drawing.Point(14, 19);
             this.ComboBoxCategory.Name = "ComboBoxCategory";
             this.ComboBoxCategory.Size = new System.Drawing.Size(248, 30);
