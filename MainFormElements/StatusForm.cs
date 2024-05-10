@@ -10,7 +10,6 @@ using MilitarySupportDispatch.MainFormElements.HelpForm;
 
 namespace MilitarySupportDispatch.MainFormElements
 {
-
     public partial class StatusForm : Form
     {
         DataBaseConnection dataBaseConnection = new DataBaseConnection();
@@ -157,7 +156,7 @@ namespace MilitarySupportDispatch.MainFormElements
 
             while (reader.Read())
             {
-                // Отримуємо посилання на зображення з результату запиту
+                // Отримуємо посилання на зображення з результату запиту.
                 object imageObj = reader["goods_image"];
 
 
